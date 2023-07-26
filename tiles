@@ -1,0 +1,38 @@
+java -jar jTileDownloader-0-6-1.jar
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<entry key="Type">UrlSquare</entry>
+<entry key="OutputLocation">C:\data\JTileDownloader\tiles</entry>
+<entry key="PasteUrl">https://www.openstreetmap.org/?lat=47.777&amp;lon=13.322&amp;zoom=11&amp;layers=B000TTF</entry>
+<entry key="TileServer">https://a.tile.openstreetmap.org</entry>
+<entry key="OutputZoomLevel">11</entry>
+<entry key="Radius">20</entry>
+</properties>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<entry key="Type">BBoxLatLon</entry>
+<entry key="OutputLocation">tiles</entry>
+<entry key="TileServer">https://a.tile.openstreetmap.org</entry>
+<entry key="MaxLat">48.2</entry>
+<entry key="MaxLon">12.86</entry>
+<entry key="MinLat">48.11</entry>
+<entry key="OutputZoomLevel">8,9,10,11,12</entry>
+<entry key="MinLon">12.77</entry>
+</properties>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<entry key="WaitSeconds">10</entry>
+<entry key="ShowTilePreview">true</entry>
+<entry key="UseProxyServer">false</entry>
+<entry key="WaitAfterNrTiles">true</entry>
+<entry key="ProxyServer"></entry>
+<entry key="WaitNrTiles">50</entry>
+<entry key="ProxyServerPort"></entry>
+<entry key="ProxyServerUser"></entry>
+<entry key="AutoCloseTilePreview">true</entry>
+<entry key="UseProxyServerAuth">false</entry>
+<entry key="OverwriteExistingFiles">true</entry>
+</properties>
